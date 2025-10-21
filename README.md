@@ -109,16 +109,17 @@ sh Copy❯ railway up
 ### Configuration
 Set the following environment variables in Railway:
 
-MYSQL_ROOT_PASSWORD: admin.
-MYSQL_DATABASE: coloquio_ds_2025.
-MYSQL_USER=claudia
-MYSQL_PASSWORD=1234
-LANG=C.UTF-8
+* MYSQL_ROOT_PASSWORD: admin.
+* MYSQL_DATABASE: coloquio_ds_2025.
+* MYSQL_USER=claudia
+* MYSQL_PASSWORD=1234
+* LANG=C.UTF-8
 
 #### Testing
-Host-BD-DS-Full uses Railway's built-in monitoring and logs. Check the status and logs with:
-sh Copy❯ railway status
-❯ railway logs
+Host-BD-DS-Full uses Railway's built-in monitoring and logs. 
+Check the status and logs with:
+* ❯ railway status
+* ❯ railway logs
 
 
 ---
