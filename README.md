@@ -63,6 +63,62 @@ This repository is designed for learning, sharing, and maintaining the database 
 
 ## Features
 
+### Prerequisites
+This project requires the following dependencies:
+
+* Programming Language: SQL
+* Container Runtime: Docker
+* Railway CLI: For deploying to Railway
+
+#### Installation
+Build and deploy Host-BD-DS-Full using Railway:
+
+
+1. Clone the repository:
+sh Copy❯ git clone https://github.com/AlejoCarobolante/Host-BD-DS-Full
+
+
+2. Navigate to the project directory:
+sh Copy❯ cd Host-BD-DS-Full
+
+
+3. Install Railway CLI:
+sh Copy❯ npm install -g @railway/cli
+
+
+4. Log in to Railway:
+sh Copy❯ railway login
+
+
+5. Build the Docker image:
+sh Copy❯ docker build -t alejocarobolante/mysql-coloqio .
+
+
+6. Usage
+Run the project with Railway:
+
+
+7. Initialize the Railway project:
+sh Copy❯ railway init
+
+
+8. Deploy the project:
+sh Copy❯ railway up
+
+
+### Configuration
+Set the following environment variables in Railway:
+
+MYSQL_ROOT_PASSWORD: admin.
+MYSQL_DATABASE: coloquio_ds_2025.
+MYSQL_USER=claudia
+MYSQL_PASSWORD=1234
+LANG=C.UTF-8
+
+#### Testing
+Host-BD-DS-Full uses Railway's built-in monitoring and logs. Check the status and logs with:
+sh Copy❯ railway status
+❯ railway logs
 
 
 ---
