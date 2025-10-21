@@ -114,6 +114,8 @@ Set the following environment variables in Railway:
 * MYSQL_USER=claudia
 * MYSQL_PASSWORD=1234
 * LANG=C.UTF-8
+* HOST: caboose.proxy.rlwy.net
+* PUERTO: 47905
 
 #### Testing
 Host-BD-DS-Full uses Railway's built-in monitoring and logs. 
@@ -265,7 +267,7 @@ echo 'INSERT-TEST-COMMAND-HERE'
 
 ## License
 
-Host-bd-ds-full is protected under the [MIT License](https://choosealicense.com/licenses/mit/). For more details, refer to the [LICENSE](https://github.com/AlejoCarobolante/Host-BD-DS-Full/blob/main/LICENSE) file.
+Host-bd-ds-full is protected under the [MIT License](https://choosealicense.com/licenses/mit/). For more details, refer to the [LICENSE](LICENSE) file.
 .
 
 
