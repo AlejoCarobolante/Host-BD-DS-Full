@@ -3,7 +3,7 @@
 <!-- HEADER STYLE: CLASSIC -->
 <div align="center">
 
-<img src="readmeai/assets/logos/purple.svg" width="30%" style="position: relative; top: 0; right: 0;" alt="Project Logo"/>
+<img src="logo.png" width="30%" style="position: relative; top: 0; right: 0;" alt="Project Logo"/>
 
 # HOST-BD-DS-FULL
 
@@ -46,13 +46,24 @@
 
 ## Overview
 
+Here you will find all the migrations needed to create and update our project's database.
+These migrations ensure that all members of the Hologram group work with the same data structure 🗂️.
 
+### 👥 Group
+
+Group: Hologram
+Course: Systems Design 2025
+Objective: Keep the database synchronized and organized for all group members 🎯
+
+
+### 🎨 Note
+This repository is designed for learning, sharing, and maintaining the database in a fun and organized way. Enjoy the code and migrations! 💻🎈
 
 ---
 
 ## Features
 
-<code>❯ REPLACE-ME</code>
+
 
 ---
 
@@ -83,11 +94,9 @@
 			</thead>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/AlejoCarobolante/Host-BD-DS-Full/blob/master/Dockerfile'>Dockerfile</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/AlejoCarobolante/Host-BD-DS-Full/blob/master/Copia_BD_Alejo_23.sql'>Copia_BD_Alejo_23.sql</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
 				</tr>
 			</table>
 		</blockquote>
@@ -124,12 +133,6 @@ Build Host-BD-DS-Full from the source and intsall dependencies:
 3. **Install the dependencies:**
 
 <!-- SHIELDS BADGE CURRENTLY DISABLED -->
-	<!-- [![docker][docker-shield]][docker-link] -->
-	<!-- REFERENCE LINKS -->
-	<!-- [docker-shield]: https://img.shields.io/badge/Docker-2CA5E0.svg?style={badge_style}&logo=docker&logoColor=white -->
-	<!-- [docker-link]: https://www.docker.com/ -->
-
-	**Using [docker](https://www.docker.com/):**
 
 	```sh
 	❯ docker build -t AlejoCarobolante/Host-BD-DS-Full .
@@ -141,7 +144,7 @@ Run the project with:
 
 **Using [docker](https://www.docker.com/):**
 ```sh
-docker run -it {image_name}
+docker run -it {mysql-coloqio}
 ```
 
 ### Testing
@@ -154,9 +157,9 @@ echo 'INSERT-TEST-COMMAND-HERE'
 
 ## Roadmap
 
-- [X] **`Task 1`**: <strike>Implement feature one.</strike>
-- [ ] **`Task 2`**: Implement feature two.
-- [ ] **`Task 3`**: Implement feature three.
+- [ ] **`Task 1`**: Download Docker.
+- [ ] **`Task 2`**: Build Docker Image.
+- [ ] **`Task 3`**: Configure Railway.
 
 ---
 
@@ -205,7 +208,9 @@ echo 'INSERT-TEST-COMMAND-HERE'
 
 ## License
 
-Host-bd-ds-full is protected under the [LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+Host-bd-ds-full is protected under the [MIT License](https://choosealicense.com/licenses/mit/). For more details, refer to the [LICENSE](https://github.com/AlejoCarobolante/Host-BD-DS-Full/blob/main/LICENSE) file.
+.
+
 
 ---
 
